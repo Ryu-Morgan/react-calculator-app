@@ -1,5 +1,17 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #282c34;
+}
+
 .App {
   text-align: center;
+  background: lightblue;
 }
 
 .App-logo {
